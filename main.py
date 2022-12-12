@@ -27,6 +27,11 @@ jupyter notebook password
 jupyter notebook --allow-root
 jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
 
+
+# convert
+ln -s  /opt/homebrew/share/jupyter  /Users/artemis/Library/Python/3.10/share/jupyter
+jupyter nbconvert --to markdown jupyter_dev.ipynb
+
 """
 if __name__ == '__main__':
     import pandas as pd
