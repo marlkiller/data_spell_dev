@@ -1,6 +1,7 @@
 """
 pip3 install jupyter
 pip3 install pandas
+pip3 install matplotlib
 """
 if __name__ == '__main__':
     import pandas as pd
